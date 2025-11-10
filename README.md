@@ -1,73 +1,96 @@
-# React + TypeScript + Vite
+<h1 align="center">🍭 SugarBoard 🍰</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>Um painel administrativo doce e completo 🍬</b><br>
+  Gerencie seus produtos, categorias e estoque de forma simples e encantadora 💜
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+🍫 **Gerenciamento de Produtos**  
+Adicione, edite e exclua produtos com nome, subtítulo, preço, peso, estoque e imagem.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧁 **Categorias**  
+Organize seus produtos por categorias e visualize quantas categorias possui.
 
-## Expanding the ESLint configuration
+💰 **Estatísticas**  
+Veja o total de produtos, categorias e o valor total do estoque com um contador animado.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔍 **Busca Rápida**  
+Pesquise produtos pelo nome ou subtítulo de forma instantânea.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🖼️ **Pré-visualização de Imagens**  
+Visualize a imagem do produto antes de salvar.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🗑️ **Confirmação de Exclusão Estilizada**  
+Pop-up agradável e temático para confirmar a remoção de produtos.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎨 Paleta de Cores
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Cor | Código | Significado |
+|------|---------|-------------|
+| 🍇 Lilás | `#c79aff` | Criatividade e doçura |
+| 🍋 Amarelo | `#ffe066` | Alegria e energia |
+| 🍓 Rosa | `#ffc3d8` | Delicadeza e leveza |
+| 🍦 Branco | `#fffafc` | Pureza e equilíbrio |
+| 🍫 Roxo Escuro | `#5a3d91` | Sofisticação e contraste |
+| 🍬 Roxo Claro | `#7e57c2` | Harmonia e charme |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🛠️ Tecnologias
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,ts,css,nodejs,express,mysql" />
+</p>
+
+- **Front-end:** React + TypeScript  
+- **Estilização:** CSS3  
+- **Ícones:** [Lucide Icons](https://lucide.dev)  
+- **Back-end:** Node.js + Express.js  
+- **Banco de Dados:** MySQL  
+
+---
+
+## 🚀 Instalação e execução
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+### 1. Clone o repositório
+    git clone https://github.com/NicoleOG12/SugarBoard-React.git
+### 2. Acessar a pasta do projeto
+    cd SugarBoard
+### 3. Instalar dependências
+    npm install
+### 4. Configurar variáveis de ambiente do backend
+Dentro da pasta backend, crie um arquivo .env com suas credenciais do MySQL:
+
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=sua_senha
+    DB_NAME=doceria
+    PORT=5000
+### 5. Rodar o projeto em modo de desenvolvimento
+    npm run dev
+### ou com yarn
+    yarn dev
+### 6. Acessar no navegador  
+     http://localhost:5173
+
+<br>
+<p align="center">
+  💻 <b>Nicole</b> — Front-end Developer & Designer <br>
+  🌸 Criando experiências visuais com um toque de doçura e criatividade 💜
+</p>
+
+<p align="center">
+  <b>© 2025 SugarBoard</b>
+</p>
+
+
+
+
