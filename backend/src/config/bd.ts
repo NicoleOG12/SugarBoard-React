@@ -6,7 +6,7 @@ dotenv.config();
 const {
   DB_HOST = "localhost",
   DB_USER = "root",
-  DB_PASSWORD = "FuscaAzuL123.",
+  DB_PASSWORD = "",
   DB_NAME = "doceria"
 } = process.env;
 
