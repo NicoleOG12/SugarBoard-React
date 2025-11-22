@@ -80,7 +80,12 @@ Dentro da pasta backend, crie um arquivo .env com suas credenciais do MySQL:
     yarn dev
 ### 6. Acessar no navegador  
      http://localhost:5173
-
+     
+### 👩‍🎓 Membros
+- [Isabella Apolinario dos Santos](https://github.com/IsahApoli)
+- [Júlia Lins Pereira da Silva](https://github.com/linsjulia)
+- [Nicole Oliveira Gonçalves](https://github.com/NicoleOG12)
+  
 <br>
 <p align="center">
   💻 <b>Nicole</b> — Front-end Developer & Designer <br>
